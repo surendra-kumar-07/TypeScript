@@ -27,19 +27,16 @@ You can also set up a TypeScript project with a tsconfig.json file. To initializ
 
 ```bash
 tsc --init
-
-// if doesn't work
-
+```
+## If error occurs
+Use tsc.cmd 
+```bash
 tsc.cmd --init
 ```
 ## Compile Code
 
 ```bash
 tsc yourfile.ts
-
-// if doesn't work
-
-tsc.cmd yourfile.ts
 ```
 
 ## For Continuous Watching
