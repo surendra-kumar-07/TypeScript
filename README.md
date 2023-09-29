@@ -26,12 +26,20 @@ npm install -g typescript
 You can also set up a TypeScript project with a tsconfig.json file. To initialize a TypeScript project, run:
 
 ```bash
-tsc -init
+tsc --init
+
+// if doesn't work
+
+tsc.cmd --init
 ```
 ## Compile Code
 
 ```bash
 tsc yourfile.ts
+
+// if doesn't work
+
+tsc.cmd yourfile.ts
 ```
 
 ## For Continuous Watching
