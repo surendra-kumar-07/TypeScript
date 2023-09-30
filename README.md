@@ -33,7 +33,7 @@ Use tsc.cmd
 ```bash
 tsc.cmd --init
 ```
-## Compile Code
+## For Compile Code
 
 ```bash
 tsc yourfile.ts
@@ -48,6 +48,7 @@ tsc yourfile.ts -w
 Type annotations are expressed by using a colon ( : ) followed by the desired type after the variable or fuction paramenter declaration.
 
 ```bash
+# example ----
 let Num:number = 10
 let myName:string = "Surendra kumar"
 ```
