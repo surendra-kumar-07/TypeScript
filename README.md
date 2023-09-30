@@ -44,3 +44,13 @@ tsc yourfile.ts
 ```bash
 tsc yourfile.ts -w
 ```
+## Type Annotations
+Type annotations are expressed by using a colon ( : ) followed by the desired type after the variable or fuction paramenter declaration.
+
+```bash
+let Num:number = 10;
+let myName:string = "Surendra kumar";
+```
+## Types in Typescript
+<img align="right" height="150" src="./types-in-typescript.jpg" />
+
